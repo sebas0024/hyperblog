@@ -1,0 +1,107 @@
+rasas asasas asasas rmasas
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+12345678988888888  
+12345678910s123456
+12345678910a
+a   
+123ssssesfds
+
+ab
+hola
+hola que haces
+ESTA está ES EN MAYUSCULA
+esto_esta_separado_por_guion_bajo
+34-45-56
+34.45.56
+34 45 56
+344556
+\d{2,2}[-\.\s]{0,1}\d{2,2}[-\.\s]?\d{2,2}
+ASSsss
+sss
+12,34,46,56
+csv1,csv2,csv3,csv4,csv5
+csv1,csv2,csv3
+1234,543,234,567,567
+432,765,368,285,986
+
+
+https://www.instagram.com/p/BXB4zsUlw5z/
+http://instagram.com/p/blablabla
+http://unam.mx/test
+https://google.com
+https://sub.dominio.de.alguien.com/archivo.html
+https://hola.pizza archivo.jpg
+urls -> https?:\/\/[\w\-\.]+\.\w{2,5}\/?\S*
+
+pruebagmail.com
+esto.es_un.mail@mail.com
+esto.es_un.mail+complejo@mail.com
+@dominio.com
+rodrigo.jimenez@yahoo.com.mx
+ruben@starbucks.com
+sebas-1600@hotmail.com
+dominio -> @[\w\.\-]{3,}\.\w{2,5}
+email -> [\w\.\-]{5,30}\+?[\w]{0,10}@[\w\.\-]{3,}\.\w{2,5}
+
+34-45-56
+34.45.56
+34 45 56
+34-45-56#123
+344556
+344556p123
+344556e123
++52344556
+34d45d56
+([0-9][^a-zA-Z]+){2,2}
+números -> ^\+?\d{2,3}[^\da-zA-Z]?\d{2,3}[^\da-zA-Z]?\d{2,3}[#pe]?\d*$
+
+AB123
+CD123
+AB123456789
+AC12345678
+AD123456788
+CB123456787
+-99.205646,19.429707,2275.10
+-99.205581,19.429652,2275.10
+-99.204654,19.428952,2275.58
+
+-99 12' 34.08"W, 19 34' 56.98"N
+-34 54' 32.00"E, -3 21' 67.00"S
+
+gravel.notes.handbag
+reaming.embeds.rats
+
+coordenadas 1 -> ^-?\d{1,3}\.\d{1,6},\s?-?\d{1,3}\.\d{1,6},.*$
+coordenadas 2 -> ^-?\d{1,3}\s\d{1,2}' \d{1,2}\.\d{2,2}"[WE],\s?-?\d{1,3}\s\d{1,2}' \d{1,2}\.\d{2,2}"[NS]$
+coordenadas 3 -> ^[a-z]{3,}\.[a-z]{3,}\.[a-z][a-z][a-z]+
+
+
+
+[LOG ENTRY] [ERROR] The system is unstable
+[LOG ENTRY] [WARN] The system may be down
+[LOG ENTRY] [WARN] Microsoft just bought Github
+[LOG DATA] [LOG] Everything is OK
+[LOG ENTRY] [LOG] Logged in
+[LOG DATA] [LOG] [user:@celismx] Did something
+[LOG LINE] [LOG] [user:@celismx] Logged in
+^\[LOG.*\[LOG\].*user:@\w+?\] .*$
+
+
+
+Ruben
+Juan Pablo
+Marcela
+Rodrigo
+Belen
+Camila
+Juan Sebastian Orrego Zapata
+nombres -> ^[A-Z][a-z]{3,}\s?[A-Z]?[a-z]{0,}(\s[A-Z][a-z]{1,}\s[A-Z][a-z]+)?
+
+[12],34,56,78
+[1],34,56,78
