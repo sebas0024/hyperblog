@@ -9,7 +9,6 @@
 12345678910
 12345678910a
 
-ab
 hola
 hola que haces
 ESTA está ES EN MAYUSCULA
@@ -20,7 +19,6 @@ esto_esta_separado_por_guion_bajo
 344556
 \d{2,2}[-\.\s]{0,1}\d{2,2}[-\.\s]?\d{2,2}
 
-12,34,46,56
 csv1,csv2,csv3,csv4,csv5
 csv1,csv2,csv3
 1234,543,234,567,567
